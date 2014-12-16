@@ -19,7 +19,7 @@
         "bower-asset/simditor-markdown": "2.0.*",
         "bower-asset/simditor-mention": "2.0.*",
         "bower-asset/simditor-marked": "*",
-        "bower-asset/simditor-dropzone": "2.0.*",
+        "bower-asset/simditor-dropzone": "2.0.*"
     },
     "autoload": {
         "psr-4": {
