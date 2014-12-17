@@ -16,7 +16,7 @@
         "yiisoft/yii2-bootstrap": "*",
         "bower-asset/simditor": "2.0.*",
         "bower-asset/simditor-emoji": "2.0.0",
-        "bower-asset/simditor-markdown": "2.0.*",
+        "bower-asset/simditor-markdown": "2.0.0",
         "bower-asset/simditor-mention": "2.0.*",
         "bower-asset/simditor-marked": "*",
         "bower-asset/simditor-dropzone": "2.0.*"
