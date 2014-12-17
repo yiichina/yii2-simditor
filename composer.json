@@ -14,7 +14,7 @@
     "require": {
         "yiisoft/yii2": "*",
         "yiisoft/yii2-bootstrap": "*",
-        "bower-asset/simditor-markdown": "2.0.0"
+        "bower-asset/simditor": "2.0.*"
     },
     "autoload": {
         "psr-4": {
