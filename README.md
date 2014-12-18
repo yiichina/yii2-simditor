@@ -1,4 +1,4 @@
 yii2-simditor
 =============
 
-simditor for Yii2
+Simditor for Yii2
