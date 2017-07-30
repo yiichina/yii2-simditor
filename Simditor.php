@@ -2,7 +2,6 @@
 
 namespace yiichina\simditor;
 
-use yiichina\simditor\SimditorAsset;
 use yii\Helpers\Html;
 
 /**
