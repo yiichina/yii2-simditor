@@ -17,10 +17,14 @@ use yii\web\AssetBundle;
  */
 class SimditorAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/fortawesome/font-awesome';
+    public $sourcePath = '@bower/simditor';
 
     public $css = [
-        'css/font-awesome.css',
+        'lib/simditor.js',
+    ];
+
+	public $js = [
+        'styles/simditor.css',
     ];
 
     public $depends = array(

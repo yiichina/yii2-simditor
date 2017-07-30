@@ -13,13 +13,11 @@ class Simditor extends \yii\base\Widget
     {
         $view = $this->getView();
         SimditorAsset::register($view);
+		$view->registerJs('CKEDITOR.replace("editor")');
     }
 
-    public static function show($name, $framework = 'glyphicon', $options = [])
+    public function run()
     {
-        new self();
-        $class = $framework . ' ' . $framework . '-' . $name;
-        $options['class'] = empty($options['class']) ? $class : $class . ' ' . $options['class'];
-        return Html::tag('span', null, $options) . ' ';
+        return Html::activeTextarea($this->model, $this->attribute);
     }
 }
