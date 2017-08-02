@@ -20,15 +20,18 @@ class SimditorAsset extends AssetBundle
     public $sourcePath = '@bower/simditor';
 
     public $css = [
-        'lib/simditor.js',
+        'styles/simditor.css',
     ];
 
-	public $js = [
-        'styles/simditor.css',
+    public $js = [
+        'lib/simditor.js',
     ];
 
     public $depends = array(
         'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset'
+        'yii\bootstrap\BootstrapAsset',
+        'yiichina\simditor\SimditorModuleAsset',
+        'yiichina\simditor\SimditorHotkeysAsset',
+        'yiichina\simditor\SimditorUploaderAsset',
     );
 }
